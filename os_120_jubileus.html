@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>os 120 jubileus para os Homens</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        marquee{
+            font-size: 23px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          background-color: gold;
+        }
+        p{
+            font-size: 18px;
+        }
+        a{
+            cursor: pointer;
+            background-color: aliceblue;
+            font-size: 18px;
+            padding: 5px;
+            width: fit-contten;
+            border-radius: 10px;
+
+        }
+        a:hover{
+            color: rgb(250, 8, 8);
+            
+            
+            
+        }
+        .button{
+            display: none;
+            cursor: pointer;
+            background-color: aliceblue;
+            font-size: 18px;
+            padding: 5px;
+            margin-left: 60%;
+            width: 120px;
+            border-radius: 10px;
+        }
+        .btn{
+            display: none;
+            cursor: pointer;
+            background-color: aliceblue;
+            font-size: 18px;
+            padding: 5px;
+            margin-left: 10%;
+            width: 120px;
+            border-radius: 10px;  
+        }
+        
+    </style>
+</head>
+<body>
+<br>
+<div align="center">Visualizações&nbsp;&nbsp;&nbsp;&nbsp;<img src='https://megacontador.com.br/img-Ep189adFKU7vmwPm-5.gif' border='0' alt='Contador de visitas'></a></div>
+<br>
+<marquee behavior="" direction="">Comunidade B`ney Isra`el</marquee>
+ <br>
+ <h1 align="center">Os 120 jubileus para os Homens</h1>
+ <br><p align="center">Você sabe o que é jubileu na Biblia?</p>
+ <p align="center"> <a class="respsim">Sim</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="respnao">Não</a></p>
+ <br>
+ <p class="resposta"></p><br>
+ <a href="index.html" class="btn">Sair</a><a class="button" >Proximo >></a>
+
+ 
+
+</body>
+<script>
+    
+    var respsim = document.querySelector(".respsim")
+    var respnao = document.querySelector(".respnao")
+    var resposta = document.querySelector(".resposta")
+    var btn = document.querySelector(".button")
+    var sair = document.querySelector(".btn")
+    var seg = 0
+
+    var resp1 = [
+        "No livro de gênesis cap 1; 28, E Deus abençoado eles, e Deus disse para eles, Seja frutífero, e multiplicar, e reabastecer a terra, e subjugá-lo: e ter domínio sobre o peixe do mar, e sobre as aves do ar, e sobre cada ser vivo que se move sobre a terra. aqui fica claro que o eterno fez a terra e deu aos homens, a seguir veremos isso na palavra.",
+       "em Salmos 115; 16, Os céus são os céus do Senhor; mas a terra a deu aos filhos dos homens. ai você se pergunta o que tem a ver com jubileu? calma que vamos explicar de agora em diante, primeiro teria  que provar que a terra e dos filhos do homem, a seguir vamos saber o que  é jubileu e o motivo de provar que a terra tem herdeiros ",
+       " observação; lembra que o homem pecou no Edem? então a terra ficou em usurpação do inimigo, como vemos em Lucas 4; 6, E disse-lhe o diabo: Dar-te-ei a ti todo este poder e a sua glória; porque a mim me foi entregue, e dou-o a quem quero. aqui já vemos que o mundo foi entregue a satanás, o proprio Messias falou que o mundo já era do maligno, como ta esclarecido que o mundo deixou de ser dos filhos dos homens e satanás atravez  do pecado usurpar o que é de herança para os filhos dos homens, a seguir vamos saber soubre jubileu e o que tem tudo isso a ver, ",
+       "quem fez o mundo foi o eterno e a ele pertence tudo que a nesse mundo, foi dada por erança aos homens, Levíticos 25; 23, Também a terra não se venderá em perpetuidade, porque a terra é minha; pois vós sois estrangeiros e peregrinos comigo. a terra tem que voltar a seu dono, agora vamos saber o que é jubileu. Levíticos 25; 10, E santificareis o ano quinquagésimo, e apregoareis liberdade na terra a todos os seus moradores; ano de jubileu vos será, e tornareis, cada um à sua possessão, e cada um à sua família. ",
+       "então vemos que o jubileu é estatuto do eterno para com a humanidade, vemos que os que venderam ou foi tomada a posse ou possessão teria de volta no ano jubileu, os escravo era livre, então cada jubileu quem tinha vendido sua terra teria de volta no ano jubileu, em genêsis 6;3,  Então disse o Senhor: Não contenderá o meu Espírito para sempre com o homem; porque ele também é carne; porém os seus dias serão cento e vinte anos. olharemos a seguir uma revelação",
+       "Saú reinou 40 anos, Davi reinou  40 anos, Salomão reinou 40 anos, juntando os três reinados com as dozes tribos unidas, dar 120 anos foram três vezes 40. Moises no Egito ficou 40 anos como principe, 40 anos como pastor de ovelhas com seu sogro, e 40 anos peregrinando no deserto com o povo e chegando ao rio Jordão moises morreu com 120 anos, ai você me pergunta o que isso tem a ver?", 
+    "40 vezes 50 dar 2 mil anos 40 vezes ano jubileu, depois de adão até Abraão foram 2 mil anos, de Adão até o Messias foram  4 mil anos, para completar 120 jubileus que dar 6mil anos sendo esse ultimo jubileu de numero 120 a terra voltarar ao seu verdadeiro dono.",
+    " vamos aprofundar mais olha o que o Messias falou em parábola em Lucas 20;, 13 E disse o senhor da vinha: Que farei? Mandarei o meu filho amado; talvez, vendo-o, seja respeitado. 14, Mas, vendo-o os lavradores, arrazoaram entre si, dizendo: Este é o herdeiro; vinde, matemo-lo, para que a herança seja nossa. quem veio e foi morto? de quem era o filho? quem era o dono da vinha? porque o Messias falou essa parábola? nas 70 semanas de Daniel foram cumpridas 49 semanas falta uma semana para completar 50 que nos revela o jubileu,  ",
+    "você pode falar que não entendeu o jubileu, vou te explicar, cada 6 anos o homem podia lavra a terra e plantar colher armazenar ou vender, mais no setimo ano era ano sabatico, a terra tinha que descansar o homem comeria do que a terra desse por si mesma, o homem podia comer livremente só não podia colher para vender ou estocar en celeiros, então cada ciclo de 7 anos no 50 era ano jubileu, quem era escravo tinha sua carta de liberdade, quem por algum motivo vendesse a terra um parente poderi revindicar a posse e teria de volta",
+    "agora sabemos que da vinda do Messias quando ele subiu ao céu, teria um cronometro que mostra nas festas solenes do eterno o tempo da sua volta pra revindicar a terra do seu verdadeiro dono, pois foi promessas do eterno a Abrão e Isaque e  Jacó e as dozes tribos da casa de Israel, vemos como é maravilhoso estudar a palavra e guardar a lei que é a torá,  pois so vemos essas revelação pela lei, pois foi aliança do eterno para os filhos de Israel, como foi ordenado também teve  promessas para todos que guardarem a lei",
+    "o ano judaico atual  é 5785, mais tem uma defasagem de 210 anos, somamos 5785 mais 210 é igual a 5995 mil anos falta 5 anos para completar 6 mil anos , não estou sendo alarmista mais veja a palavra e todas as solenidades de Deus pois e para sinais e tempos determinados, vemo que para 120 jubileu de acordo com os anos atuais falta 5 anos para completar 6 mil anos que é 120 jubileu",
+    "agora você pode falar, mais isso são para os judeus, veja como se interpreta a palavra erroniamente, judeu é quem é da tribo de judá, a lei e promessas foram prometidas a casa de Israel que no caso era o nome de Jacó, quando veio a lei o povo tava escravo no egito, depois de sairem do egito o eterno fez uma aliança no monte, essa aliança foi para os Israelitas que eram 12 tribos que cada tribo representa cada filho de Jacó, em apocalipse 21;12 são 12 portas escritos com o nome das 12 tribos dos filhos de Israel, apocalipse 22;14 fala bem aventurados os que lavam suas vestiduras no sangue do cordeiro para terem direito a árvore da vida e entra na cidade pelas portas, toda promessa nas escrituras ta para Israel, o proprio Jesus disse eu vim se não as ovelhas perdidas de Israel, quem não sabe soubre as duas casa de Israel e a promessa de se tornarem uma só tendo uma só cabeça que é Cristo",
+    "bem agora voçê diz, somos salvo pela graça. o que é a graça? a misericordia de Deus, favor não merecido. o que abraão fez para ser abençoado pois era da terra de seus pais e sua família vivia de vendas de deuses de todo jeito, ai o eterno mandou ele sair do meio da parentela dele pois o eterno queria abençoalo, muitos erroniamente fala que foi atravez do sacrifício de seu filho Isaque, mais se lermos veremos que ele foi abençoado assim que se apartou de ló, depois da promessa a benção veio a obidiencia quando o eterno lhe pediu seu filho em sacrifício, vemos que foi pela graça que abraão foi abençoado. o que o povo de Israel quando tava escravo no egito fez para serem liberto? vemos que o eterno lançou 10 pragas contra o egito para eles serem livres, depois que atravessaram o mar veio a lei no monte. então vemos que o povo não fez nada para merecer que o eterno livrassem eles com braço forte do rei do egito",
+    "ai você pergunta que isso tem a ver com a graça de Jesus? eu te respondo tudo, pois em joão 14 Jesus diz que aquele que o ama, guarda ou pratica os mandamentos, que mandamentos era esse? que no tempo que ele tava era a torá e os profetas, não tinha o novo testamento. em Mateus 5;17 ele fala que não veio abolir o invalidar a lei e os profetas, pelo contrario veio cumprir, se o mestre cumpriu ele tambem disse que nos fariamos mais do que ele, a religião distorceu a graça por libertinagem pois pela graça vende a palavra, pela graça peca pois tou pela graça e não pela lei",
+    "o Messias avisou que viriam muitos em nome dele falsos que se dizem de cristo mais são lobos, a lei derruba o sistema das religião pois a lei e a verdade e luz que revela o pecado, faça um estudo de joão 14 e veja se não será revelado os que são impios, e os servos, finalizo por aqui pedindo ao eterno que abram os vossos olhos espirituais para ver o caminho estreito, não foi Jesus que ofereceu o mundo para ele ser adorado.e sim o diabo oferece o mundo para ser adorado e os homens não busque a lei de Deus pois tá escrito em João 5;39,  Examinais as Escrituras, porque vós cuidais ter nelas a vida eterna, e são elas que de mim testificam; ",
+    "olha o comprimento em apocalipse 11;15 o sétimo anjo tocou a sua trombeta, e houve no céu grandes vozes, que diziam: Os reinos do mundo vieram a ser de nosso Senhor e do seu Cristo, e ele reinará para todo o sempre.",
+    ""
+
+
+    ]
+
+
+                                                                                                                                                                                                                                                                                                             
+    respnao.addEventListener("click", () =>{
+        
+        resposta.textContent=resp1[seg]
+        btn.style.display="block"
+        if ('speechSynthesis' in window) {
+              const utterance = new SpeechSynthesisUtterance("No livro de gênesis 1;28, E Deus abençoado eles, e Deus disse para eles, Seja frutífero, e multiplicar, e reabastecer a terra, e subjugá-lo: e ter domínio sobre o peixe do mar, e sobre as aves do ar, e sobre cada ser vivo que se move sobre a terra. aqui fica claro que o eterno fez a terra e deu aos homens, a seguir veremos isso na palavra.");
+               utterance.lang = 'pt-BR';
+  
+            speechSynthesis.speak(utterance);
+          } else {
+             alert('Desculpe, seu navegador não suporta a API Web Speech.');
+          }
+          alert("aguarde o audio carregar click em Ok para continuar")
+    })
+
+    btn.addEventListener("click",() =>{
+        seg=+1+seg
+        resposta.textContent=resp1[seg]
+        if ('speechSynthesis' in window) {
+              const utterance = new SpeechSynthesisUtterance(resp1[seg] );
+               utterance.lang = 'pt-BR';
+  
+            speechSynthesis.speak(utterance);
+          } else {
+             alert('Desculpe, seu navegador não suporta a API Web Speech.');
+          }
+          if (resposta.textContent=="") {
+            sair.style.display="block"
+            alert("fim")
+          }
+    })
+
+    respsim.addEventListener("click", () =>{
+        alert("Olá ainda ta em construção só tem um trecho para quem não sabe o que é  jubileu click em Ok e selecione a opção não!")
+    })
+
+
+
+</script>
+</html>

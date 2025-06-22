@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo Teshuvá</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        marquee{
+            background-color: gold;
+            font-size: 25px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .menu{
+            cursor: pointer;
+            font-size: 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-left: 2%;
+        }
+        .barramenu{
+            background-color: gold;
+            width: fit-content;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 9px;
+        }
+        .conteiner{
+            display: none;
+            background-color: rgb(255, 51, 0);
+            width: fit-content;
+            padding: 10px;
+            border-radius: 12px;
+            
+        }
+        .a1{
+            color: aliceblue;
+            margin: 5px;
+            padding: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <br>
+   <div align="center">Visualizações &nbsp;&nbsp;&nbsp;<img src='https://megacontador.com.br/img-seLSYUWpNg0kJFLb-83.gif' border='0' alt='Contador de visitas'></a></div>
+    <br>
+    <marquee behavior="" direction="">Edu.App &nbsp;&nbsp;&nbsp;&nbsp;Estudo de Teshuvá</marquee>
+    <br><br><br>
+    <tr >
+        <td >
+           <h1 class="barramenu"> <a href="#" class="menu">Menu</a></h1>
+        </td>
+    </tr>
+    <div class="conteiner">
+        <br>
+        <a class="a1" href="Apocalipse-20.html">apocalipse 20 os livros</a><br><br>
+        <a class="a1" href="os_120_jubileus.html">Os 120 Jubileu</a><br><br>
+        <a class="a1" href="festa_das_trombetas.html">Festas das trombetas</a><br><br>
+        <a class="a1" href="#" id="constru">Em construção</a><br><br>
+        <br><br><br>
+        <a class="a1" href="#" id="sair">Sair</a>
+    </div>
+    
+    <script>
+        var menu = document.querySelector(".menu")
+        var caixa = document.querySelector(".conteiner")
+        var fechar = document.getElementById("sair")
+        var constru = document.getElementById("constru")
+
+
+        menu.addEventListener("click",() => {
+            caixa.style.display="block"
+        })
+
+        fechar.addEventListener("click", () => {
+            caixa.style.display="none"
+        })
+
+        constru.addEventListener("click", () => {
+            alert("em breve parasha 39")
+        })
+
+
+    </script>
+
+</body>
+
+</html>
